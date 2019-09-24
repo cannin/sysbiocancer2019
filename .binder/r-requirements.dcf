@@ -8,7 +8,6 @@ depends:
   clusterProfiler
   ComplexHeatmap
   cowplot
-  github::cytoscape/cyjShiny
   data.table
   dendextend
   DO.db
@@ -19,12 +18,10 @@ depends:
   extrafontdb
   fgsea
   GetoptLong
-  ggalt
   ggdendro
   ggforce
   ggformula
   ggfortify
-  ggmap
   ggplot2
   ggraph
   ggrepel
@@ -76,7 +73,9 @@ depends:
   stringr
   testthat
   tibble
+  tidytext
   tidyverse
+  tidygraph
   viridis
   viridisLite
   xml2
@@ -85,7 +84,8 @@ depends:
   scran
   uwot
   VennDiagram
+  github::cytoscape/cyjShiny
   github::BioPAX/paxtoolsr
   github::cannin/rcausalpath
   github::cannin/sbgnvizShiny
-  bitbucket::mil2041/netboxr
+  github::mil2041/netboxr
