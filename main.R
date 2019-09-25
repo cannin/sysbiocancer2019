@@ -14,7 +14,7 @@ file.copy(tmp, ".")
 tmp <- system.file("egfExample", package="rcausalpath")
 file.copy(tmp, ".", recursive = TRUE)
 
-# These are resources normally downloaded by CausalPath
+### These are resources normally downloaded by CausalPath
 unzip("egfExample/panda_custom_resource_pc_5fa16018.zip", exdir="egfExample/.panda") 
 
 ## NetBox
