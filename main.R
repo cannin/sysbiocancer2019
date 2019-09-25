@@ -1,9 +1,22 @@
-# R CMD javareconf
-#install.packages("rJava")
-#dyn.load('/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so')
+# COPY NECESSARY FILES ----
 
-library(rJava)
+## SBGNML 
+tmp <- system.file("run_add_color_to_sbgnml.R", package="sbgnvizShiny")
+file.copy(tmp, ".")
 
-.jinit()
-a <- .jarray(1:5)
-print(a)
+## SBGNViz 
+tmp <- system.file("run_sbgnviz_shiny_example.R", package="sbgnvizShiny")
+file.copy(tmp, ".")
+
+## CausalPath
+tmp <- system.file("egfExample", package="rcausalpath")
+file.copy(tmp, ".", recursive = TRUE)
+
+unzip("egfExample/panda_custom_resource_pc_5fa16018.zip", exdir="egfExample/.panda") 
+
+## NetBox
+# FIXME 
+
+## EnrichmentMap 
+# FIXME 
+

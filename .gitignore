@@ -1,1 +1,6 @@
 ignore/
+.Rproj.user
+egfExample/
+.Rhistory
+run_add_color_to_sbgnml.R
+F002-eicosanoids-SBGNv02_color.sbgn

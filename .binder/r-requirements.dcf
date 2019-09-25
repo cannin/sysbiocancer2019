@@ -3,48 +3,28 @@ r-version: 3.6
 mran-date: 2019-08-01
 update-packages: FALSE
 depends:
-  BiocCheck
-  cgdsr
   clusterProfiler
-  ComplexHeatmap
-  cowplot
   data.table
-  dendextend
   DO.db
   DOSE
   DT
-  dynamicTreeCut
-  extrafont
-  extrafontdb
   fgsea
   GetoptLong
-  ggdendro
-  ggforce
-  ggformula
-  ggfortify
   ggplot2
   ggraph
   ggrepel
   ggthemes
-  glmnet
   GO.db
-  googlesheets
   gplots
   GSEABase
   htmlwidgets
   httr
   igraph
-  impute
   jsonlite
   kableExtra
   knitr
   magrittr
-  memoise
-  morpheus
-  parallel
-  parcor
-  pbapply
-  pheatmap
+  org.Hs.eg.db
   plotly
   plyr
   png
@@ -55,23 +35,16 @@ depends:
   Rcpp
   RcppArmadillo
   RcppEigen
-  RcppParallel
-  RcppTOML
-  RCurl
   RCy3
-  rdist
   readr
   readxl
   remotes
   rJava
-  roxygen2
   shiny
-  simpleRCache
   stopwords
   stringdist
   stringi
   stringr
-  testthat
   tibble
   tidytext
   tidyverse
