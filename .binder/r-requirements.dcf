@@ -12,6 +12,7 @@ depends:
   DT
   fgsea
   GetoptLong
+  git2r
   ggplot2
   ggraph
   ggrepel
