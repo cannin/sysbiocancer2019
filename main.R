@@ -1,3 +1,5 @@
+library(git2r)
+
 # COPY NECESSARY FILES ----
 
 ## SBGNML 
@@ -12,11 +14,13 @@ file.copy(tmp, ".")
 tmp <- system.file("egfExample", package="rcausalpath")
 file.copy(tmp, ".", recursive = TRUE)
 
+# These are resources normally downloaded by CausalPath
 unzip("egfExample/panda_custom_resource_pc_5fa16018.zip", exdir="egfExample/.panda") 
 
 ## NetBox
-# FIXME 
+tmp <- system.file("netboxrTutorial.Rmd", package="netboxr")
+file.copy(tmp, ".")
 
 ## EnrichmentMap 
-# FIXME 
+git2r::clone("https://github.com/cannin/enrichmentMap_jordan2016.git", "enrichmentMap_jordan2016")
 

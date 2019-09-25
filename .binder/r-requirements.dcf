@@ -3,7 +3,9 @@ r-version: 3.6
 mran-date: 2019-08-01
 update-packages: FALSE
 depends:
+  BiocStyle
   clusterProfiler
+  concaveman
   data.table
   DO.db
   DOSE
