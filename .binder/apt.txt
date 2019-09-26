@@ -1,2 +1,3 @@
+libv8-dev
 default-jdk
 groovy

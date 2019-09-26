@@ -5,7 +5,6 @@ update-packages: FALSE
 depends:
   BiocStyle
   clusterProfiler
-  concaveman
   data.table
   DO.db
   DOSE
@@ -15,6 +14,7 @@ depends:
   git2r
   ggplot2
   ggraph
+  concaveman
   ggrepel
   ggthemes
   GO.db
@@ -43,6 +43,7 @@ depends:
   readxl
   remotes
   rJava
+  rprojroot
   shiny
   stopwords
   stringdist
