@@ -1,4 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cannin/sysbiocancer2019/master?urlpath=rstudio)
+[![Analytics](https://ga-beacon.appspot.com/UA-57486113-11/sysbiocancer2019)](https://github.com/cannin/sysbiocancer2019)
 
 # Network Analysis Tutorials: Computational Systems Biology of Cancer 2019: Institut Curie 
 
@@ -14,4 +15,6 @@ This website pulls together installation for a number of network analysis tools 
 
 # Running 
 
-Click the Launch Binder button at the top and run the "main.R" script 
+1. Click the Launch Binder button at the top 
+2. Run the "main.R" script to retrieve the individual demo specific files
+3. Run scripts for specific demos 
