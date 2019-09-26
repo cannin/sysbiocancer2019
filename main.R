@@ -18,7 +18,7 @@ file.copy(tmp, ".", recursive = TRUE)
 unzip("egfExample/panda_custom_resource_pc_5fa16018.zip", exdir="egfExample/.panda") 
 
 ## NetBox
-tmp <- system.file("netboxrTutorial.Rmd", package="netboxr")
+tmp <- system.file("extdata/netboxrTutorial.Rmd", package="netboxr")
 file.copy(tmp, ".")
 
 ## EnrichmentMap 
