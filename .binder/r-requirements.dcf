@@ -56,11 +56,6 @@ depends:
   viridis
   viridisLite
   xml2
-  SingleCellExperiment
-  scater
-  scran
-  uwot
-  VennDiagram
   github::cytoscape/cyjShiny
   github::BioPAX/paxtoolsr
   github::cannin/rcausalpath
