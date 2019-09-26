@@ -1,4 +1,5 @@
 libv8-dev
 libudunits2-dev
+libgdal-dev
 default-jdk
 groovy
