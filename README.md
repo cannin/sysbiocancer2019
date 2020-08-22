@@ -3,7 +3,7 @@
 
 # Network Analysis Tutorials: Computational Systems Biology of Cancer 2019: Institut Curie 
 
-This website pulls together installation for a number of network analysis tools related to Pathway Commons (http://pathwaycommons.org). Primary websites and documenatation should be consulted for each tool. 
+This website pulls together installation for a number of network analysis tools related to Pathway Commons (http://pathwaycommons.org). Primary websites and documentation should be consulted for each tool. 
 
 
 # Tools Covered 
